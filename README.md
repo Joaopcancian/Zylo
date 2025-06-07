@@ -1,4 +1,4 @@
-# 🚀 Sistema de Monitoramento Ambiental com .NET + Oracle
+# 🚀 Sistema de Monitoramento Ambiental com .NET + Oracle + Devops
 
 ## ✨ Visão Geral
 
