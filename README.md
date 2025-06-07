@@ -146,7 +146,7 @@ Demonstrar o funcionamento completo da aplicação com containers Docker e persi
 #### 1. Clone o repositório .NET:
 
 ```bash
-dotnet publish -c Release -o out
+https://github.com/Joaopcancian/Zylo
 ```
 
 #### 2. Entre no terminal no prompt de comando e digite:
