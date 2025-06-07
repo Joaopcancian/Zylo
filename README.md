@@ -117,11 +117,11 @@ Arquivo `appsettings.json`:
 
 ```json
 "ConnectionStrings": {
-  "OracleConnection": "User Id=rm555341;Password=123456;Data Source=oracle.fiap.com.br:1521/orcl;"
+  "OracleConnection": "User Id=rm555341;Password=123456;Data Source=localhost:1521/XEPDB1;"
 }
 ```
 
-### 2. Execute a aplicação:
+### 2. Execute a aplicação no visual studio ou digite:
 
 ```bash
 dotnet run
@@ -130,8 +130,49 @@ dotnet run
 ### 3. Acesse o Swagger:
 
 ```
-localhost:5232/swagger
+http://localhost:5232/swagger/index.html
 ```
+
+---
+
+## 🚀 DevOps e Demonstração em Docker
+
+### ✅ Objetivo
+
+Demonstrar o funcionamento completo da aplicação com containers Docker e persistência de dados, com base em comandos executados e infraestrutura usada para execução do projeto.
+
+### 🔧 Etapas Executadas
+
+#### 1. Clone o repositório .NET:
+
+```bash
+dotnet publish -c Release -o out
+```
+
+#### 2. Entre no terminal no prompt de comando e digite:
+
+```prompt
+cd global
+```
+
+#### 3. Execução dos containers:
+
+```bash
+docker-compose up -d --build
+```
+
+#### 4. Acesso via navegador:
+
+```
+http://localhost:8080/swagger
+```
+
+#### 5. Testar de operações CRUD no Swagger:
+
+* Criar (`POST`)
+* Consultar (`GET`)
+* Atualizar (`PUT`)
+* Excluir (`DELETE`)
 
 ---
 
@@ -142,9 +183,11 @@ O sistema foi implementado com sucesso, permitindo a manipulação de dados em t
 ---
 
 ## 🎓 Autores
+
 João Pedro Cancian Corrêa – RM: 555341
 Giulia Camillo - RM: 554473
 Caroline de Oliveira - RM: 559123
+
 Desenvolvido como parte da Sprint 1 - 3º Semestre
 
 Desenvolvido como parte do desafio prático para sistema de monitoramento com foco em IoT e integração de banco Oracle com .NET.
