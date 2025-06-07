@@ -117,7 +117,7 @@ Arquivo `appsettings.json`:
 
 ```json
 "ConnectionStrings": {
-  "OracleConnection": "User Id=rm555341;Password=123456;Data Source=localhost:1521/XEPDB1;"
+  "OracleConnection": "User Id=rm555341;Password=070705;Data Source=oracle.fiap.com.br:1521/orcl;"
 }
 ```
 
