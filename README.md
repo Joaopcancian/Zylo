@@ -110,8 +110,15 @@ public class Usuario
 
 * Oracle XE rodando localmente (porta 1521)
 * .NET SDK instalado
+* Vs code ou Visual Studio
 
-### 1. Configure a connection string:
+#### 1. Clone o repositório .NET:
+
+```bash
+https://github.com/Joaopcancian/Zylo
+```
+
+### 2. Configure a connection string:
 
 Arquivo `appsettings.json`:
 
@@ -121,7 +128,7 @@ Arquivo `appsettings.json`:
 }
 ```
 
-### 2. Execute a aplicação no visual studio ou digite:
+### 3. Execute a aplicação no visual studio ou digite:
 
 ```bash
 dotnet run
