@@ -155,7 +155,7 @@ https://github.com/Joaopcancian/Zylo
 cd global
 ```
 
-#### 3. Execução dos containers:
+#### 3. Execução dos containers e imagens:
 
 ```bash
 docker-compose up -d --build
